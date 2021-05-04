@@ -14,7 +14,11 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
-    "@sanity/cli": "^2.0.0",
+    "@sanity/cli": "^2.10.0",
     "lerna": "^3.9.0"
+  },
+  "dependencies": {
+    "clone-deep": "^4.0.1",
+    "emoji-regex": "^9.2.2"
   }
 }
